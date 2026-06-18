@@ -1,0 +1,338 @@
+<!DOCTYPE html>
+<html lang="bn">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>AI Automation + Cybersecurity · ২ বছরের পূর্ণাঙ্গ রোডম্যাপ</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; font-family: 'Segoe UI', Roboto, sans-serif; }
+    body { background: #f2f7fc; padding: 2rem 1.2rem; color: #0b1a2e; }
+    .container { max-width: 1100px; margin: 0 auto; }
+
+    .hero {
+      background: linear-gradient(145deg, #0b1a2e, #1d3b57);
+      color: #fff; padding: 2.5rem 2rem; border-radius: 2rem;
+      margin-bottom: 2.5rem; box-shadow: 0 20px 35px -8px rgba(0,0,0,0.3);
+    }
+    .hero h1 { font-size: 2.2rem; font-weight: 700; }
+    .hero h1 i { color: #7ad0ff; margin-right: 12px; }
+    .hero .subhead { font-size: 1.15rem; opacity: 0.92; margin-top: 0.5rem; line-height: 1.5; }
+    .badge-group { margin-top: 1.2rem; display: flex; flex-wrap: wrap; gap: 0.7rem; }
+    .badge { background: rgba(255,255,255,0.12); padding: 0.4rem 1.2rem; border-radius: 40px; font-size: 0.9rem; border: 1px solid rgba(255,255,255,0.1); }
+    .badge i { margin-right: 8px; color: #7ad0ff; }
+
+    .section { background: #fff; border-radius: 1.8rem; padding: 2rem; margin-bottom: 2rem; box-shadow: 0 6px 24px rgba(0,0,0,0.05); }
+    .section-header { display: flex; align-items: center; gap: 12px; border-bottom: 2px solid #e6edf4; padding-bottom: 1rem; margin-bottom: 1.8rem; }
+    .section-header h2 { font-size: 1.8rem; font-weight: 700; }
+    .section-header i { font-size: 1.8rem; color: #1d6f9c; width: 2.2rem; }
+    .year-tag { background: #e4edf5; border-radius: 40px; padding: 0.2rem 1.2rem; font-weight: 600; font-size: 0.85rem; color: #1a4b6b; margin-left: 8px; }
+
+    .grid-2 { display: grid; grid-template-columns: repeat(auto-fit, minmax(270px, 1fr)); gap: 1.5rem; }
+    .grid-3 { display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 1.2rem; }
+
+    .topic-card {
+      background: #f8fafc; border-radius: 1.2rem; padding: 1.2rem 1.5rem;
+      border-left: 4px solid #2d7aa0;
+    }
+    .topic-card h4 { font-size: 1.1rem; font-weight: 600; display: flex; align-items: center; gap: 8px; }
+    .topic-card h4 i { color: #1d6f9c; width: 1.4rem; }
+    .topic-card ul { list-style: none; padding-left: 0.3rem; margin-top: 0.3rem; }
+    .topic-card li { display: flex; align-items: baseline; gap: 6px; font-size: 0.95rem; line-height: 1.6; }
+    .topic-card li::before { content: "▹"; color: #2d7aa0; font-weight: 600; }
+
+    .resource-box {
+      background: #eef5fa; border-radius: 1rem; padding: 0.7rem 1.2rem; margin-top: 0.7rem;
+      font-size: 0.9rem; border: 1px solid #dce7f0;
+    }
+    .resource-box i { margin-right: 8px; color: #1d6f9c; }
+
+    .highlight-block {
+      background: #dcebf5; border-radius: 1.2rem; padding: 1.2rem 1.8rem; margin: 1.5rem 0 0.5rem;
+      border-left: 6px solid #0f4b6e;
+    }
+    .chip { background: #fff; border-radius: 40px; padding: 0.2rem 1rem; font-size: 0.8rem; font-weight: 500; border: 1px solid #cbdae7; color: #1a3b52; display: inline-block; }
+    .flex { display: flex; flex-wrap: wrap; gap: 0.6rem; align-items: center; }
+
+    .footer-note {
+      background: #e9f0f7; border-radius: 2rem; padding: 1.8rem 2rem; margin-top: 2rem;
+      display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between;
+    }
+    .footer-note .icons i { font-size: 1.6rem; margin: 0 6px; color: #1d5e82; }
+    .btn-outline { border: 1px solid #1d6f9c; background: transparent; padding: 0.4rem 1.6rem; border-radius: 60px; font-weight: 600; color: #1d6f9c; display: inline-block; }
+
+    @media (max-width: 650px) { .hero h1 { font-size: 1.6rem; } .section { padding: 1.2rem; } }
+  </style>
+</head>
+<body>
+<div class="container">
+
+  <!-- HERO -->
+  <div class="hero">
+    <h1><i class="fas fa-robot"></i> AI Automation + Cybersecurity · ২ বছরের পূর্ণাঙ্গ রোডম্যাপ</h1>
+    <div class="subhead">
+      <i class="fas fa-check-circle" style="color: #7ad0ff; margin-right: 6px;"></i>
+      প্রথমে AI Automation / AI Agent Development, তারপর ধীরে ধীরে Cybersecurity — এই combination আগামী ১০ বছরে খুব শক্তিশালী হবে।
+    </div>
+    <div class="subhead" style="margin-top: 0.3rem;">
+      কারণ: AI systems বানাতে security লাগবে · automation + security একসাথে জানলে value অনেক বেড়ে যায় · remote job + freelancing + SaaS সব opportunity open থাকবে
+    </div>
+    <div class="badge-group">
+      <span class="badge"><i class="fas fa-code"></i> Python · API · AI</span>
+      <span class="badge"><i class="fas fa-shield-alt"></i> Secure AI · OWASP</span>
+      <span class="badge"><i class="fas fa-cloud"></i> Docker · AWS</span>
+      <span class="badge"><i class="fas fa-rocket"></i> Freelance + SaaS</span>
+    </div>
+  </div>
+
+  <!-- ========== YEAR 1 ========== -->
+  <div class="section">
+    <div class="section-header">
+      <i class="fas fa-calendar-alt"></i>
+      <h2>Year 1 <span class="year-tag">Strong Foundation + AI Automation</span></h2>
+    </div>
+
+    <!-- Month 1–2 -->
+    <div style="margin-bottom: 1.8rem;">
+      <div class="flex" style="margin-bottom: 0.5rem;">
+        <span class="chip"><i class="far fa-clock"></i> Month 1–2</span>
+        <h3 style="font-weight: 600; font-size: 1.2rem;">Python Core Strong করা</h3>
+      </div>
+      <p style="font-weight: 500; margin-bottom: 0.4rem;">লক্ষ্য: Python এমনভাবে শিখা যেন logic লিখতে পারেন · automation করতে পারেন · API বুঝতে পারেন</p>
+      <div class="grid-2">
+        <div class="topic-card">
+          <h4><i class="fas fa-cogs"></i> Topics</h4>
+          <ul>
+            <li>variables</li><li>loops</li><li>functions</li><li>OOP</li><li>modules</li><li>file handling</li><li>error handling</li>
+          </ul>
+        </div>
+        <div class="topic-card">
+          <h4><i class="fas fa-laptop-code"></i> Practice</h4>
+          <ul>
+            <li>প্রতিদিন ছোট script লিখবেন। যেমন: file rename, auto folder organize, calculator, CSV reader</li>
+          </ul>
+          <div class="resource-box"><i class="fab fa-youtube"></i> YouTube: Bangla Python tutorials · <i class="fas fa-book-open"></i> Official Python docs</div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Month 3–4 -->
+    <div style="margin-bottom: 1.8rem;">
+      <div class="flex" style="margin-bottom: 0.5rem;">
+        <span class="chip"><i class="far fa-clock"></i> Month 3–4</span>
+        <h3 style="font-weight: 600; font-size: 1.2rem;">Advanced Python</h3>
+      </div>
+      <div class="grid-2">
+        <div class="topic-card">
+          <h4><i class="fas fa-code-branch"></i> Topics</h4>
+          <ul>
+            <li>decorators</li><li>generators</li><li>virtual environments</li><li>pip</li><li>requests</li><li>async basics</li><li>JSON</li><li>APIs</li>
+          </ul>
+        </div>
+        <div class="topic-card">
+          <h4><i class="fas fa-project-diagram"></i> Project</h4>
+          <ul>
+            <li>weather app</li><li>crypto price bot</li><li>Telegram bot</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <!-- Month 5 -->
+    <div style="margin-bottom: 1.8rem;">
+      <div class="flex" style="margin-bottom: 0.5rem;">
+        <span class="chip"><i class="far fa-clock"></i> Month 5</span>
+        <h3 style="font-weight: 600; font-size: 1.2rem;">Linux + Git</h3>
+      </div>
+      <p style="margin-bottom: 0.4rem;">আপনি Ubuntu ব্যবহার করেন, এটা বড় advantage।</p>
+      <div class="grid-2">
+        <div class="topic-card">
+          <h4><i class="fab fa-linux"></i> Linux</h4>
+          <ul>
+            <li>terminal mastery</li><li>permissions</li><li>ssh</li><li>cron jobs</li><li>processes</li>
+          </ul>
+        </div>
+        <div class="topic-card">
+          <h4><i class="fab fa-git-alt"></i> Git</h4>
+          <ul>
+            <li>commit</li><li>branch</li><li>GitHub workflow</li>
+          </ul>
+          <div class="resource-box"><i class="fas fa-external-link-alt"></i> GitHub Docs</div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Month 6–7 -->
+    <div style="margin-bottom: 1.8rem;">
+      <div class="flex" style="margin-bottom: 0.5rem;">
+        <span class="chip"><i class="far fa-clock"></i> Month 6–7</span>
+        <h3 style="font-weight: 600; font-size: 1.2rem;">Backend Development</h3>
+      </div>
+      <div class="grid-2">
+        <div class="topic-card">
+          <h4><i class="fas fa-server"></i> শিখবেন</h4>
+          <ul>
+            <li>FastAPI (recommended)</li><li>REST API</li><li>database basics</li><li>authentication</li>
+          </ul>
+          <div class="resource-box"><i class="fas fa-bolt"></i> কেন FastAPI? AI tools এর সাথে খুব compatible। <i class="fas fa-external-link-alt"></i> FastAPI official</div>
+        </div>
+        <div class="topic-card">
+          <h4><i class="fas fa-database"></i> Database</h4>
+          <ul>
+            <li>PostgreSQL</li><li>SQL</li><li>indexing</li><li>relationships</li>
+          </ul>
+          <p style="margin-top: 0.4rem; font-weight: 500;">Practice: user system, task manager backend</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Month 9–10 & 11–12 -->
+    <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 1.8rem; margin-top: 0.5rem;">
+      <div>
+        <div class="flex" style="margin-bottom: 0.4rem;"><span class="chip">Month 9–10</span><h4 style="font-weight:600; margin-left:8px;">AI Fundamentals</h4></div>
+        <div class="topic-card">
+          <ul>
+            <li>LLM কীভাবে কাজ করে</li><li>embeddings</li><li>vector database</li><li>prompt engineering</li><li>RAG basics</li>
+          </ul>
+          <div class="resource-box"><i class="fas fa-lightbulb"></i> Important: Math genius হওয়া লাগবে না।</div>
+        </div>
+      </div>
+      <div>
+        <div class="flex" style="margin-bottom: 0.4rem;"><span class="chip">Month 11–12</span><h4 style="font-weight:600; margin-left:8px;">AI Automation + AI Agents</h4></div>
+        <div class="topic-card">
+          <p style="font-weight: 500;">এটাই আপনার মূল skill হবে।</p>
+          <ul>
+            <li>OpenAI APIs</li><li>LangChain</li><li>AI workflow</li><li>AI agents</li><li>automation systems</li>
+          </ul>
+          <div class="resource-box"><i class="fab fa-openai"></i> OpenAI Platform · <i class="fas fa-link"></i> LangChain</div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Year 1 Final Projects -->
+    <div class="highlight-block">
+      <strong><i class="fas fa-check-circle" style="margin-right: 10px;"></i> Year 1 Final Projects</strong>
+      <p style="margin-top: 0.3rem;">এই projectগুলো portfolio তে রাখবেন:</p>
+      <div style="display: flex; flex-wrap: wrap; gap: 0.8rem 1.8rem; margin-top: 0.6rem;">
+        <span><i class="fas fa-robot"></i> AI chatbot</span>
+        <span><i class="fas fa-paper-plane"></i> Telegram AI assistant</span>
+        <span><i class="fas fa-file-alt"></i> AI document summarizer</span>
+        <span><i class="fas fa-chart-line"></i> AI crypto news analyzer</span>
+        <span><i class="fas fa-tachometer-alt"></i> automation dashboard</span>
+      </div>
+    </div>
+  </div>
+
+  <!-- ========== YEAR 2 ========== -->
+  <div class="section">
+    <div class="section-header">
+      <i class="fas fa-calendar-alt"></i>
+      <h2>Year 2 <span class="year-tag">Professional Level + Cybersecurity</span></h2>
+    </div>
+
+    <!-- Month 13–14 -->
+    <div style="margin-bottom: 1.8rem;">
+      <div class="flex" style="margin-bottom: 0.4rem;"><span class="chip">Month 13–14</span><h3 style="font-weight:600; font-size:1.1rem;">Docker + Deployment</h3></div>
+      <div class="grid-2">
+        <div class="topic-card"><h4><i class="fab fa-docker"></i> Learn</h4><ul><li>Docker</li><li>containers</li><li>VPS deployment</li><li>Nginx</li><li>Linux servers</li></ul></div>
+        <div class="topic-card"><h4><i class="fas fa-cloud-upload-alt"></i> কেন?</h4><ul><li>Deployment skill অপরিহার্য</li></ul></div>
+      </div>
+    </div>
+
+    <!-- Month 15–16 -->
+    <div style="margin-bottom: 1.8rem;">
+      <div class="flex" style="margin-bottom: 0.4rem;"><span class="chip">Month 15–16</span><h3 style="font-weight:600; font-size:1.1rem;">Cloud Basics</h3></div>
+      <div class="grid-2">
+        <div class="topic-card"><h4><i class="fab fa-aws"></i> Learn</h4><ul><li>AWS basics</li><li>cloud deployment</li><li>storage</li><li>server management</li></ul><div class="resource-box"><i class="fas fa-external-link-alt"></i> AWS Skill Builder</div></div>
+      </div>
+    </div>
+
+    <!-- Month 17–18 -->
+    <div style="margin-bottom: 1.8rem;">
+      <div class="flex" style="margin-bottom: 0.4rem;"><span class="chip">Month 17–18</span><h3 style="font-weight:600; font-size:1.1rem;">Cybersecurity Foundations</h3></div>
+      <div class="grid-2">
+        <div class="topic-card"><h4><i class="fas fa-shield-alt"></i> Learn</h4><ul><li>networking</li><li>TCP/IP</li><li>HTTP</li><li>DNS</li><li>encryption basics</li><li>authentication</li><li>OWASP Top 10</li></ul><div class="resource-box"><i class="fas fa-external-link-alt"></i> OWASP Top 10</div></div>
+      </div>
+    </div>
+
+    <!-- Month 19–20 -->
+    <div style="margin-bottom: 1.8rem;">
+      <div class="flex" style="margin-bottom: 0.4rem;"><span class="chip">Month 19–20</span><h3 style="font-weight:600; font-size:1.1rem;">Ethical Hacking Basics</h3></div>
+      <div class="grid-2">
+        <div class="topic-card"><h4><i class="fas fa-skull-crossbones"></i> Learn</h4><ul><li>Linux security</li><li>web vulnerabilities</li><li>Burp Suite</li><li>Nmap</li></ul><div class="resource-box"><i class="fas fa-gamepad"></i> Practice Platforms: TryHackMe · Hack The Box</div></div>
+      </div>
+    </div>
+
+    <!-- Month 21–22 -->
+    <div style="margin-bottom: 1.8rem;">
+      <div class="flex" style="margin-bottom: 0.4rem;"><span class="chip">Month 21–22</span><h3 style="font-weight:600; font-size:1.1rem;">Secure AI Systems</h3></div>
+      <div class="grid-2">
+        <div class="topic-card"><h4><i class="fas fa-lock"></i> এখানে আপনি unique হয়ে যাবেন।</h4><ul><li>AI security</li><li>API security</li><li>prompt injection</li><li>secure authentication</li><li>rate limiting</li></ul></div>
+      </div>
+    </div>
+
+    <!-- Month 23–24 -->
+    <div style="margin-bottom: 0.5rem;">
+      <div class="flex" style="margin-bottom: 0.4rem;"><span class="chip">Month 23–24</span><h3 style="font-weight:600; font-size:1.1rem;">Freelancing + Real Income</h3></div>
+      <div class="grid-2">
+        <div class="topic-card"><h4><i class="fas fa-briefcase"></i> Start</h4><ul><li>Upwork</li><li>Fiverr</li><li>LinkedIn</li><li>GitHub portfolio</li></ul></div>
+        <div class="topic-card"><h4><i class="fas fa-user-tie"></i> Build</h4><ul><li>personal website</li><li>portfolio</li><li>case studies</li></ul></div>
+      </div>
+    </div>
+
+    <!-- প্রতিদিন কত ঘণ্টা? -->
+    <div class="highlight-block" style="background: #d4e4f0; border-left-color: #0f4b6e;">
+      <strong><i class="fas fa-clock"></i> প্রতিদিন কত ঘণ্টা?</strong>
+      <div style="margin-top: 0.3rem;">Ideal: ৪–৬ ঘণ্টা focused study · ১–২ ঘণ্টা practice/project</div>
+      <div style="margin-top: 0.6rem;"><i class="fas fa-fire" style="color:#c44536;"></i> সবচেয়ে গুরুত্বপূর্ণ জিনিস</div>
+      <ul style="margin-top: 0.3rem; padding-left: 1.2rem; list-style: none;">
+        <li><i class="fas fa-check" style="color:#0f6b3a;"></i> ১. Consistency — প্রতিদিন ২ ঘণ্টা > একদিন ১২ ঘণ্টা</li>
+        <li><i class="fas fa-check" style="color:#0f6b3a;"></i> ২. Project-based learning — শুধু tutorial দেখবেন না।</li>
+        <li><i class="fas fa-check" style="color:#0f6b3a;"></i> ৩. English Reading — Documentation পড়ার অভ্যাস করুন।</li>
+      </ul>
+    </div>
+  </div>
+
+  <!-- ========== ২ বছরের শেষে আপনি কী করতে পারবেন ========== -->
+  <div class="section" style="background: #e5f0f9;">
+    <div class="section-header" style="border-bottom-color: #b8d0e0;">
+      <i class="fas fa-trophy" style="color: #f5b042;"></i>
+      <h2>২ বছরের শেষে আপনি কী করতে পারবেন</h2>
+    </div>
+    <div style="display: flex; flex-wrap: wrap; gap: 0.8rem 2rem; font-size: 1.05rem; margin-bottom: 0.8rem;">
+      <span><i class="fas fa-check-circle" style="color:#0f6b3a;"></i> AI automation বানাতে</span>
+      <span><i class="fas fa-check-circle" style="color:#0f6b3a;"></i> AI agents develop করতে</span>
+      <span><i class="fas fa-check-circle" style="color:#0f6b3a;"></i> backend systems বানাতে</span>
+      <span><i class="fas fa-check-circle" style="color:#0f6b3a;"></i> secure APIs develop করতে</span>
+      <span><i class="fas fa-check-circle" style="color:#0f6b3a;"></i> freelance করতে</span>
+      <span><i class="fas fa-check-circle" style="color:#0f6b3a;"></i> remote job করতে</span>
+      <span><i class="fas fa-check-circle" style="color:#0f6b3a;"></i> নিজের SaaS বানাতে</span>
+    </div>
+    <div style="background: #0b1a2e; color: white; border-radius: 3rem; padding: 1rem 2rem; display: inline-block; font-weight: 500; margin-top: 0.3rem;">
+      <i class="fas fa-bolt" style="color: #ffd966;"></i> Bonus Advice: বর্তমানে সবচেয়ে valuable combination — AI + Security + Automation — এটা আগামী ১০ বছরে খুব powerful থাকবে।
+    </div>
+  </div>
+
+  <!-- ========== BONUS ========== -->
+  <div class="footer-note">
+    <div>
+      <i class="fas fa-lightbulb" style="color: #f5b042; font-size: 1.6rem; margin-right: 12px;"></i>
+      <span style="font-weight: 500;">আপনি চাইলে এখন আমি:</span><br>
+      “Day 1 থেকে শুরু” study routine · কোন YouTube channel ভালো · Bangla resource · free vs paid resource · কোন laptop specs যথেষ্ট · কোন projects আগে বানাবেন · freelancing profile কিভাবে বানাবেন — এসবও step-by-step সাজিয়ে দিতে পারি।
+    </div>
+    <div class="icons">
+      <i class="fab fa-python"></i>
+      <i class="fas fa-shield-alt"></i>
+      <i class="fas fa-cloud-upload-alt"></i>
+      <i class="fas fa-robot"></i>
+    </div>
+    <span class="btn-outline"><i class="fas fa-arrow-right"></i> step-by-step guide</span>
+  </div>
+
+  <div style="text-align: center; margin-top: 2rem; font-size: 0.9rem; color: #3b5f7a; opacity: 0.7;">
+    <i class="fas fa-code"></i> Linux + Python advantage · ২ বছরের রোডম্যাপ — কোনো শব্দ বাদ যায়নি
+  </div>
+
+</div>
+</body>
+</html>
